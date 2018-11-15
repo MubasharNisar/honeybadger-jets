@@ -41,3 +41,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/tongue
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## TODO
+
+* Use `config/honeybadger.yml` to load settings also. Class is here [honeybadger/config.rb](https://github.com/honeybadger-io/honeybadger-ruby/blob/master/lib/honeybadger/config.rb)
