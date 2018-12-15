@@ -8,7 +8,7 @@ module HoneybadgerJets
       end
     end
 
-    exception_reporter 'honeybadger.capture' do |exception|
+    on_exception 'honeybadger.capture' do |exception|
       Honeybadger.notify(exception)
     end
   end
