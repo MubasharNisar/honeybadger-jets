@@ -2,6 +2,8 @@
 
 [![Gem Version](https://img.shields.io/gem/v/honeybadger-jets.svg)](https://rubygems.org/gems/honeybadger-jets)
 
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
+
 [HoneyBadger](https://honeybadger.com/) is real-time error reporting and monitoring service.
 
 This gem adds HoneyBadger error reporting support to [Jets: Ruby Serverless Framework](http://rubyonjets.com/).
