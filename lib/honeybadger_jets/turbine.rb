@@ -5,9 +5,10 @@ module HoneybadgerJets
     initializer 'honeybadger.configure' do
       Honeybadger.configure do |config|
         config.api_key = ENV["HONEYBADGER_API_KEY"]
+        config.logger = ::Logger.new(STDOUT)
+        config.report_data= true
         config.env = Jets.env.to_s
-        development_environments = ENV["HONEYBADGER_DEVELOPMENT_ENVIRONMENTS"]
-        config.development_environments = development_environments ? development_environments.split(' ') : %w[development test cucumber]
+        config.debug= true
       end
     end
 
